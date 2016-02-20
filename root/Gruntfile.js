@@ -45,3 +45,4 @@ module.exports = function (grunt) {
     // Default task.
     grunt.registerTask('default', ['jshint', 'mochaTest:dev']);
     grunt.registerTask('jenkins', ['jshint', 'mochaTest:jenkins']);
+};
